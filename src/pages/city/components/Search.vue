@@ -9,7 +9,7 @@
         <div class="search-result" v-show="searchVal" ref="resultList">
             <div class="results">
                 <div class="result-wrapper">
-                    <div class="item" v-for="item in results">{{item}}</div>
+                    <div class="item" v-for="item in results" @click="getCityName(item)">{{item}}</div>
                 </div>
             </div>
         </div>
@@ -59,6 +59,12 @@ export default {
     },
     mounted () {
         // this.scroll = new BScroll(this.$refs.resultList);
+    },
+    methods: {
+        getCityName (city) {
+            this.$store.commit('changeCity', city);
+            this.$router.push('/');
+        }
     }
 }
 

@@ -3,7 +3,7 @@
         <div class="title">
             <span>猜你喜欢</span>
         </div>
-        <div class="list-wrapper" v-for="(item, index) in recommendList">
+        <router-link :to="'/detail/' + item.id" tag='div' class="list-wrapper" v-for="(item, index) in recommendList" :key="item.id">
             <div class="img-wrapper">
                 <img :src="item.imgUrl">
                 <span :style="{background: bgColor[item.type]}">{{typeText[item.type]}}</span>
@@ -20,7 +20,7 @@
                 </div>
                 <span class="feature">{{item.desc}}</span>
             </div>
-        </div>
+        </router-link>
     </div>
 </template>
 <script type="text/javascript">

@@ -1,0 +1,69 @@
+{
+  "res": true,
+  "data": {
+    "sightName": "大连圣亚海洋世界(AAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_600x330_bf9c4904.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_800x800_70debc93.jpg", "http://img1.qunarzz.com/sight/p0/1709/76/7691528bc7d7ad3ca3.img.png_800x800_9ef05ee7.png"],
+    "categoryList": [{
+        "title": "成人票",
+        "children": [{
+          "title": "成人三馆联票",
+          "children": [{
+            "title": "成人三馆联票 - 某一连锁店销售"
+          }]
+        },{
+          "title": "成人五馆联票"
+        }]
+      }, {
+        "title": "学生票"
+      }, {
+        "title": "儿童票"
+      }, {
+        "title": "特惠票"
+      }],
+    "ratings": [
+        {
+          "username": "3******c",
+          "rateTime": "2018-03-03",
+          "rateType": 1,
+          "rate": 3,
+          "text": "门左手边有大黄蜂等三个好玩剌激的项目，玩玩晚上7点半了，去更衣室冲洗下结束一天水世界游玩活动，总体说还好，不过海滩和懒人河人工造浪少且小，没有热带风暴好玩。",
+          "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+          "imgLists":[
+              {
+                "id": "001",
+                "url": "https://imgs.qunarzz.com/piao/fusion/1608/e9/d8256ec285e3d742.jpg_240x240_3d3ee7d1.jpg"
+              },
+              {
+                "id": "002",
+                "url": "https://imgs.qunarzz.com/piao/fusion/1608/e1/dedc14d968c04142.jpg_240x240_768c358e.jpg"
+              },
+              {
+                "id": "003",
+                "url": "https://imgs.qunarzz.com/piao/fusion/1608/e9/d8256ec285e3d742.jpg_240x240_3d3ee7d1.jpg"
+              },
+              {
+                "id": "004",
+                "url": "https://imgs.qunarzz.com/piao/fusion/1608/6f/f2cc036080555142.jpg_240x240_1c567ecf.jpg"
+              }
+          ]
+        },
+        {
+          "username": "2******3",
+          "rateTime": "2018-02-03",
+          "rateType": 0,
+          "rate": 2,
+          "text": "上海当天40度，在玛雅度过，不用换票，刷身份证即可入园。大项目有排队，我玩了2个，很刺激，非常值得一去，一年必去一趟。被水浇也是一件很开心的事。而且风景无限好，你总会发现的，哈哈。带上防晒霜，矿泉水可以带几瓶。毕竟6块钱一瓶。",
+          "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+        },
+        {
+          "username": "3******b",
+          "rateTime": "2018-02-06",
+          "rateType": 0,
+          "rate": 4,
+          "text": "去哪网买票 一个人可以买5张 身份证一刷 人都进去咯 很是个方便 省去了 排队买票的时间家庭游 大大小小十个人浩浩荡荡的出发了 自驾游 八点出门 九点多就到了车停到了欢乐谷的地下停车场6块钱一小时八小时封顶 走了很远的路问保安说是最近的停车场个有点迷糊",
+          "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+        }
+      ]
+  }
+}

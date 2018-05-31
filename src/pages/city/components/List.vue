@@ -5,19 +5,19 @@
                 <div class="hotcity">
                     <p class="header">当前城市</p>
                     <div class="city-wrapper">
-                        <div class="item">北京</div>
+                        <div class="item">{{this.$store.state.city}}</div>
                     </div>
                 </div>
                 <div class="hotcity" v-if="hotCities && hotCities.length > 0">
                     <p class="header">热门城市</p>
                     <div class="city-wrapper">
-                        <div v-for="item in hotCities" class="item" :key="item.id">{{item.name}}</div>
+                        <div @click="getCityName(item.name)" v-for="item in hotCities" class="item" :key="item.id">{{item.name}}</div>
                     </div>
                 </div>
                 <div class="hotcity" v-for="(item, key) in cities" :key="key" :ref="key">
                     <p class="header">{{key}}</p>
                     <div class="city-wrapper">
-                        <div class="item" v-for="city in cities[key]">{{city.name}}</div>
+                        <div class="item" @click="getCityName(city.name)" v-for="city in cities[key]">{{city.name}}</div>
                     </div>
                 </div>
             </div>
@@ -54,6 +54,10 @@ export default {
         initBScroll () {
             let wrapper = this.$refs.listWrapper;
             this.scroll = new BScroll(wrapper);
+        },
+        getCityName (city) {
+            this.$store.commit('changeCity', city);
+            this.$router.push('/');
         }
     }
 }

@@ -1,6 +1,6 @@
 <template>
     <div id="home">
-        <HomeHeader :city="city"></HomeHeader>
+        <HomeHeader></HomeHeader>
         <HomeSwiper :swiperList = 'swiperList'></HomeSwiper>
         <HomeIcons :iconList = 'iconList'></HomeIcons>
         <Gap></Gap>

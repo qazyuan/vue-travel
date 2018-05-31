@@ -8,17 +8,14 @@
             <input class="input-text" type="text" name="text" placeholder="输入城市或景点">
         </div>
         <div class="address">
-            <router-link to="/city">{{city}}</router-link>
+            <router-link to="/city">{{this.$store.state.city}}</router-link>
             <span class="iconfont icon-jiantou"></span>
         </div>
     </div>
 </template>
 <script type="text/javascript">
 export default {
-    name: 'Header',
-    props: {
-        city: String
-    }
+    name: 'Header'
 }
 </script>
 <style scoped>
